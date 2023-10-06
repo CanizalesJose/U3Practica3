@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+
+    font-family: Tahoma, sans-serif;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.borradoTotal {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(223, 0, 0);
+    transition: transform 0.5;
+}
+
+.borradoTotal:hover {
+    transform: scale(1.1);
+    background-color: rgb(150, 0, 0);
+}
